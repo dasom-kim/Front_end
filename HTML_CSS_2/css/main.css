@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0
+}
+div {
+    /* 블럭 태그인 div에서의 width, hegith 설정은 가능하다. */
+    /* 다만, display: inline 으로 지정해주면 설정은 무의미하다. */
+    background: red;
+    width: 200px;
+    height: 100px;
+}
+span {
+    background: red;
+    /* 인라인 태그인 span에서의 width, height 설정은 아무 소용이 없다. */
+    /* 다만, display: block 으로 지정해주면 설정이 가능하다. */
+    /* width: 200px;
+    height: 100px; */
+}
