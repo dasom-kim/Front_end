@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- 문자가 인코딩되는 방식을 정의(가장 위에 위치) -->
+    <!-- EUC-KR: 완성형. 완성된 조합이 없는 경우 제대로 표현 못함! 한글이 깨지는 경우가 존재 -->
+    <!-- UTF-8: 조합형. 조합할 수 있는 경우의 수만 가지고 있으면 자유롭게 표현 가능 -->    
+    <meta charset="UTF-8">
+    <!-- 반응형 웹 사이트를 지원하기 위한 코드! -->
+    <!-- 화면에 렌더링되는 영역을 지정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 인터넷 익스플로러 지원을 위한 코드 -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 상대 경로를 작성할 때 base를 이용하면 됨! -->
+    <!-- html 문서에 단 한 번만 작성이 가능하다. -->
+    <!-- 특정 경로에 지속적으로 접근해야 할 경우 사용하면 좋다. -->
+    <base href="./css/">
+    <!-- link 태그 안의 type 속성은 생략이 가능하다. -->
+    <!-- type에 작성될 수 있는 값은 MIME Type을 참고하면 된다. 필요에 따라서 찾아쓰면 됨 -->
+    <link rel="stylesheet" href="main.css">
+    <!-- style 태그 안의 type 속성은 생략이 가능하다. -->
+    <!-- body 태그 안에도 작성 가능하지만 효율적이진 않다. 기본적으로 head 태그에 작성하도록 한다. -->
+    <!-- 
+    <style type="text/css">
+    
+    </style>
+     -->
+</head>
+<body>  
+    <img src="https://avatars0.githubusercontent.com/u/14211623?v=4" alt="샘플 이미지">
+</body>
+</html>
